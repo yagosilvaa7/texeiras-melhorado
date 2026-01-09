@@ -693,7 +693,7 @@ function renderizarCardapio(filtro = 'todos') {
 // Função para abrir WhatsApp com a mensagem
 function pedirNoWhatsApp(nomeProduto, preco) {
     const mensagem = `Olá! Gostaria de pedir: ${nomeProduto} (${preco})`;
-    const whatsappURL = `https://wa.me/5532987109337?text=${encodeURIComponent(mensagem)}`;
+    const whatsappURL = `https://wa.me/553232161906?text=${encodeURIComponent(mensagem)}`;
     window.open(whatsappURL, '_blank');
 }
 
